@@ -1,0 +1,1 @@
+sample code for 20483 class
