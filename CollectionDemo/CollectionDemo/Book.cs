@@ -13,5 +13,8 @@ namespace CollectionDemo
         public string Author { get; set; }
         public string Genre { get; set; }
 
+
+        public event DataChanged();
+
     }
 }

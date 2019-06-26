@@ -23,6 +23,14 @@ namespace CollectionDemo
         public MainWindow()
         {
             InitializeComponent();
+            this.linqDemoButton.Click += LinqDemoButton_Click;
+
+
+        }
+
+        private void LinqDemoButton_Click(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         System.Collections.Hashtable myList 

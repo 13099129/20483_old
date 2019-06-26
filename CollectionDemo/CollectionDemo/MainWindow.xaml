@@ -14,7 +14,7 @@
         <Button Content="Push" HorizontalAlignment="Left" Margin="274,48,0,0" VerticalAlignment="Top" Width="55" Click="Button_Click_2"/>
         <Button Content="Pop" HorizontalAlignment="Left" Margin="344,48,0,0" VerticalAlignment="Top" Width="52" Click="Button_Click_3"/>
         <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="52,114,0,0" Click="Button_Click_4"/>
-        <Button  Content="LinqDemo" HorizontalAlignment="Left" Margin="230,114,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click_5"/>
+        <Button Name="linqDemoButton"  Content="LinqDemo" HorizontalAlignment="Left" Margin="230,114,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click_5"/>
 
     </Grid>
 </Window>
