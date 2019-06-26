@@ -43,9 +43,18 @@ namespace EntityFrameworkDemo
             data.Book book = new data.Book();
             book.Title = this.title.Text;
             book.PublishYear = Convert.ToInt32(this.pubyear.Text);
+            book.Format = data.BookFormat.Paper;
             ctx.Books.Add(book);
 
             ctx.SaveChanges();
+        }
+
+
+        void InsertAuthor()
+        {
+            data.Author a = new data.Author();
+            a.BirthPlace = "detroit";
+            a.Birthdate = DateTime.Today;
         }
     }
 }
